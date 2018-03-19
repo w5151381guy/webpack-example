@@ -5,7 +5,7 @@
 Webpack 是一個開源的前端打包工具。Webpack 提供了前端開發缺乏的模組化開發方式，將各種靜態資源視為模組，並從它生成優化過的程式碼，通常都會寫一個 `webpack.config.js` 來管理各個檔案。
 
 Webpack的核心功能如下
-* 可同時整合 CommonJS 和 AMD 模組
+* 可同時整合 CommonJS 和 es6 module
 * 轉換 JSX, Coffee Script, TypeScript 等
 * 分散封裝專案使用的程式碼，使載入頁面時只需載入當頁所需的程式碼以加速載入速度
 * 整合樣式表 (css, sass, less 等)
@@ -16,7 +16,7 @@ Webpack的核心功能如下
 
 ![](http://4.bp.blogspot.com/-f3f-l-gfQzo/Vh_F0OCuTYI/AAAAAAAAEc4/wu17dcGGiCk/s1600/what-is-webpack.png)
 
-Webpack 符合 `CommonJS` 的規範，因此要用 `const xxx = require('xxx')` 而不是用 `import xxx from 'xxx'`，在export的部分也要用 `module.exports = {}` 而不是 `export default xxx`
+WWebpack 設定檔符合 `CommonJS` 的規範，因此要用 `const xxx = require('xxx')` 而不是用 `import xxx from 'xxx'`，在export的部分也要用 `module.exports = {}` 而不是 `export default xxx`
 
 ```js
     //webpack.config.js
