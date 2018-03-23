@@ -17,3 +17,13 @@ $(() => {
     setDatainfo()
     showDatainfo()
 })
+
+
+
+// CommonJS
+// const xxx = require('xxx') => import
+// module.exports = {xxx} => export
+
+// EcmaScript6 -> ES6
+// import xxx from 'xxx' => import
+// export default {} => export

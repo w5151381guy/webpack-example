@@ -16,7 +16,7 @@ Webpack的核心功能如下
 
 ![](http://4.bp.blogspot.com/-f3f-l-gfQzo/Vh_F0OCuTYI/AAAAAAAAEc4/wu17dcGGiCk/s1600/what-is-webpack.png)
 
-WWebpack 設定檔符合 `CommonJS` 的規範，因此要用 `const xxx = require('xxx')` 而不是用 `import xxx from 'xxx'`，在export的部分也要用 `module.exports = {}` 而不是 `export default xxx`
+Webpack 設定檔符合 `CommonJS` 的規範，因此要用 `const xxx = require('xxx')` 而不是用 `import xxx from 'xxx'`，在export的部分也要用 `module.exports = {}` 而不是 `export default xxx`
 
 ```js
     //webpack.config.js
@@ -32,7 +32,7 @@ WWebpack 設定檔符合 `CommonJS` 的規範，因此要用 `const xxx = requir
 Webpack最基本的設定值有以下幾個
 1. entry
     * 用來設定 js file 進入點，通常都會命名為 index.js 或者是 main.js
-* ouput
+* output
     * 用來設定 bundle 後的檔案要叫什麼名字以及要擺在哪邊，通常都會命名為 bundle.js 而這個 bundle.js 通常都會擺在 dist 的資料夾
 * module
     * 用來設定 Webpack 的各種 loaders ，例如最有名的轉譯套件  babel 就是寫在這邊
