@@ -22,7 +22,8 @@
     "webpack-merge": "^4.1.4"
   },
   "scripts": {
-    "dev": "webpack-dev-server -w --config webpack.dev.js --mode development"
+    "dev": "webpack-dev-server -w --config webpack.dev.js --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
